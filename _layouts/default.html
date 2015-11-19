@@ -1,20 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
   <body>
+    <div id="#wrapper">
+      {% include header.html %}
 
-    {% include header.html %}
+      <div class="content">
+        <div class="hero" role="main">
+          <div class="container">
+            <div class="intro">
+              <h1>The New Star Robbins &amp; Company expierence is here.</h1>
+              <p>A new way to get the information you need.</p>
+              <a type="button" class="btn btn-large btn-green qa-btn" href="/quick-answers">START NOW</a>
+            </div>
+            <div class="linear-bg hidden-phone">
+              <!--googleoff: all-->
+              <div class="container">
+                <div class="limiter">
+                  <form class="form-inline row-fluid">
+                    <label for="signup-hero">GET IMPORTANT NEWS &amp; UPDATES</label>
+                    <input name="email-signup" title="Email Signup Text Box" id="signup-hero" placeholder="Email Address" type="text" data-email="">
+                    <button class="btn btn-inverse signup" data-toggle="modal" data-target="#subscribe">Sign up</button>
+                  </form>
+                </div>
+              </div>
+              <!--googleon: all-->
+            </div>
+            <!--googleoff: all-->
+            <h2 class="accessibility">Quick links to information</h2>
+            <div id="taskbar">
+              <div class="container">
+                <span id="left" class="icon arrow disabled" href="#" tabindex="-1"></span>
+                <span id="right" class="icon arrow" href="#" tabindex="-1"></span>
+                <div class="inner-strip">
+                  <div class="row-fluid caro" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 1050px;">
+                    <ul class="equal-height items" style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 1890px; left: 0px;">
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">What are the requirements for a Life Event?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">What documentation do I need to prove a life event?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">Where do I get a claim form?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">How do I file my Wellness Claim?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">Can I find information online?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">How to reach us for questions?</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <script type='text/javascript'>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+              $('.dropdown .nav-btn .dropdown-menu').dropdown();
+              // $('.nav .dropdown.nav-btn').accessibleDropDown();
+
+              $('#skip-nav').click(function () {
+                $($(this).attr('href')).focus();
+                return false;
+              });
+
+              $('#learn-nav a, #learn-nav input').focus(function(e) {
+                  if (!$(this).closest('.dropdown').length) {
+                      $('#learn-nav .dropdown').removeClass('hover open');
+                  }
+              });
+
+              // if(isMobileDevice.any()) {
+              //   $('#learn-nav .dropdown-menu').css('display','none');
+              // }
+              </script>
+            </div>
+            <!--googleon: all-->
+          </div>
+        </div>
+        <div class="wrapper">
+          <!-- {{ content }} -->
+        </div>
       </div>
+
+      <!-- {% include footer.html %} -->
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>

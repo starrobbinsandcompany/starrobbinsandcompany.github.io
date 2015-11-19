@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon' />
+    <title>Star Robbins & Company</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://starrobbins.com/">
+</head>
+
+
+  <body>
+    <div id="#wrapper">
+      <header role='banner'>
+  <div class='container'>
+    <div class='limiter hidden-phone desktop-nav' id='desktop-nav'>
+  <div class='row'>
+    <div class="col-xs-12 col-md-5">
+      <a href='/'><img class='logo' src='/images/logo.png' alt='Star Robbins &amp; Company' /></a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <a href='#' class='topnav active'>Learn</a>
+      <a href='#' class='topnav'>About Us</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</header>
+<div id="learn-nav" class="subnav hidden-phone" role="navigation">
+  <h2 class="accessibility">Main Menu</h2>
+  <div class="container">
+    <div class="limiter">
+      <div class="row">
+        <div class="col-xs-12 col-md-9 nav">
+          <li class="nav-btn">
+            <a class=" round" href="/families">Individuals &amp; Families</a>
+          </li>
+          <li class="nav-btn">
+            <a class=" round" href="/small-businesses">Small Businesses</a>
+          </li>
+          <li class="nav-btn">
+            <a class=" round" href="/small-businesses">Employee Resources</a>
+          </li>
+          <!-- <li role="presentation" class="nav-btn dropdown clearfix">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+    Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="content">
+        <div class="hero" role="main">
+          <div class="container">
+            <div class="intro">
+              <h1>The New Star Robbins &amp; Company expierence is here.</h1>
+              <p>A new way to get the information you need.</p>
+              <a type="button" class="btn btn-large btn-green qa-btn" href="/quick-answers">START NOW</a>
+            </div>
+            <div class="linear-bg hidden-phone">
+              <!--googleoff: all-->
+              <div class="container">
+                <div class="limiter">
+                  <form class="form-inline row-fluid">
+                    <label for="signup-hero">GET IMPORTANT NEWS &amp; UPDATES</label>
+                    <input name="email-signup" title="Email Signup Text Box" id="signup-hero" placeholder="Email Address" type="text" data-email="">
+                    <button class="btn btn-inverse signup" data-toggle="modal" data-target="#subscribe">Sign up</button>
+                  </form>
+                </div>
+              </div>
+              <!--googleon: all-->
+            </div>
+            <!--googleoff: all-->
+            <h2 class="accessibility">Quick links to information</h2>
+            <div id="taskbar">
+              <div class="container">
+                <span id="left" class="icon arrow disabled" href="#" tabindex="-1"></span>
+                <span id="right" class="icon arrow" href="#" tabindex="-1"></span>
+                <div class="inner-strip">
+                  <div class="row-fluid caro" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 1050px;">
+                    <ul class="equal-height items" style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 1890px; left: 0px;">
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">What are the requirements for a Life Event?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">What documentation do I need to prove a life event?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">Where do I get a claim form?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">How do I file my Wellness Claim?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">Can I find information online?</a>
+                      </li>
+                      <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                        <a href="#">How to reach us for questions?</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <script type='text/javascript'>
+
+              $('.dropdown .nav-btn .dropdown-menu').dropdown();
+              // $('.nav .dropdown.nav-btn').accessibleDropDown();
+
+              $('#skip-nav').click(function () {
+                $($(this).attr('href')).focus();
+                return false;
+              });
+
+              $('#learn-nav a, #learn-nav input').focus(function(e) {
+                  if (!$(this).closest('.dropdown').length) {
+                      $('#learn-nav .dropdown').removeClass('hover open');
+                  }
+              });
+
+              // if(isMobileDevice.any()) {
+              //   $('#learn-nav .dropdown-menu').css('display','none');
+              // }
+              </script>
+            </div>
+            <!--googleon: all-->
+          </div>
+        </div>
+        <div class="wrapper">
+          <!-- <div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    
+      <li>
+        <span class="post-meta">Nov 17, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/11/17/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
+ -->
+        </div>
+      </div>
+
+      <!-- <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Star Robbins & Company</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Star Robbins & Company</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+ -->
+    </div>
+  </body>
+
+</html>
