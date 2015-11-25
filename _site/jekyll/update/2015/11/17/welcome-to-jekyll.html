@@ -20,59 +20,56 @@
   <body>
     <div id="#wrapper">
       <header role='banner'>
-  <div class='container'>
-    <div class='limiter hidden-phone desktop-nav' id='desktop-nav'>
-  <div class='row'>
-    <div class="col-xs-12 col-md-5">
-      <a href='/'><img class='logo' src='/images/logo.png' alt='Star Robbins &amp; Company' /></a>
-    </div>
-    <div class="col-xs-6 col-md-6 pull-right">
-      <div class="col-lg-6">
-         <div class="input-group">
-           <input type="text" class="form-control" placeholder="Search for...">
-           <span class="input-group-btn">
-             <button class="btn btn-default" type="button">Go!</button>
-           </span>
-         </div><!-- /input-group -->
-       </div><!-- /.col-lg-6 -->
-      <a href='#' class='topnav'>Login</a>
-    </div>
-  </div>
-</div>
-
-  </div>
-</header>
-<div id="learn-nav" class="subnav hidden-phone" role="navigation">
-  <h2 class="accessibility">Main Menu</h2>
-  <div class="container">
-    <div class="limiter">
-      <div class="row">
-        <div class="col-xs-12 col-md-9 nav">
-          <li class="nav-btn">
-            <a class=" round" href="/families">Individuals &amp; Families</a>
-          </li>
-          <li class="nav-btn">
-            <a class=" round" href="/small-businesses">Small Businesses</a>
-          </li>
-          <li class="nav-btn">
-            <a class=" round" href="/small-businesses">Employee Resources</a>
-          </li>
-          <!-- <li role="presentation" class="nav-btn dropdown clearfix">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-    Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li> -->
+        <div class="container">
+          <div class='row top-nav'>
+            <div class="col-md-4">
+              <a href='/'><img class='logo' src='/images/logo.png' alt='Star Robbins &amp; Company' /></a>
+            </div>
+            <div class="col-md-8 pull-right">
+              <div class="col-md-8">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="What can we help you find?" aria-describedby="basic-addon2">
+                  <span class="input-group-addon" id="basic-addon2">Search</span>
+                </div><!-- /input-group -->
+              </div>
+              <div class="col-md-2 pull-right">
+                <a href='#'>Login</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+      </header>
+      <nav role="navigation" class="subnav">
+        <div class="container">
+          <div class="limiter">
+            <div class="row">
+              <div class="col-md-9">
+                <ul class="nav nav-pills">
+                  <li>
+                    <a href="/families">Individuals &amp; Families</a>
+                  </li>
+                  <li>
+                    <a href="/small-businesses">Small Businesses</a>
+                  </li>
+                  <li>
+                    <a href="/small-businesses">Employee Resources</a>
+                  </li>
+                  <li role="presentation" class="nav-btn dropdown clearfix">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
 
       <div class="content">
         <div class="hero" role="main">
@@ -126,26 +123,6 @@
                   </div>
                 </div>
               </div>
-              <script type='text/javascript'>
-
-              $('.dropdown .nav-btn .dropdown-menu').dropdown();
-              // $('.nav .dropdown.nav-btn').accessibleDropDown();
-
-              $('#skip-nav').click(function () {
-                $($(this).attr('href')).focus();
-                return false;
-              });
-
-              $('#learn-nav a, #learn-nav input').focus(function(e) {
-                  if (!$(this).closest('.dropdown').length) {
-                      $('#learn-nav .dropdown').removeClass('hover open');
-                  }
-              });
-
-              // if(isMobileDevice.any()) {
-              //   $('#learn-nav .dropdown-menu').css('display','none');
-              // }
-              </script>
             </div>
             <!--googleon: all-->
           </div>
