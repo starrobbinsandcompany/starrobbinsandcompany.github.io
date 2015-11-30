@@ -65,21 +65,7 @@
               <p>A new way to get the information you need.</p>
               <a type="button" class="btn btn-large btn-green qa-btn" href="/quick-answers">START NOW</a>
             </div>
-            <div class="linear-bg hidden-phone">
-              <!--googleoff: all-->
-              <div class="container">
-                <div class="limiter">
-                  <form class="form-inline row-fluid">
-                    <label for="signup-hero">GET IMPORTANT NEWS &amp; UPDATES</label>
-                    <input name="email-signup" title="Email Signup Text Box" id="signup-hero" placeholder="Email Address" type="text" data-email="">
-                    <button class="btn btn-inverse signup" data-toggle="modal" data-target="#subscribe">Sign up</button>
-                  </form>
-                </div>
-              </div>
-              <!--googleon: all-->
-            </div>
-            <!--googleoff: all-->
-            <h2 class="accessibility">Quick links to information</h2>
+            <!-- Quick Questions -->
             <div id="taskbar">
               <div class="container">
                 <span id="left" class="icon arrow disabled" href="#" tabindex="-1"></span>
@@ -114,12 +100,13 @@
           </div>
         </div>
         <div class="wrapper">
-          <!-- {{ content }} -->
+          <div class="container">
+            {{ content }}
+          </div>
         </div>
       </div>
-
-      {% include footer.html %}
     </div>
+    {% include footer.html %}
   </body>
 
 </html>
