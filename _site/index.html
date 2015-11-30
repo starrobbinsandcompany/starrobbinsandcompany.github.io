@@ -10,6 +10,8 @@
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/css/main.css">
@@ -20,59 +22,56 @@
   <body>
     <div id="#wrapper">
       <header role='banner'>
-  <div class='container'>
-    <div class='limiter hidden-phone desktop-nav' id='desktop-nav'>
-  <div class='row'>
-    <div class="col-xs-12 col-md-5">
-      <a href='/'><img class='logo' src='/images/logo.png' alt='Star Robbins &amp; Company' /></a>
-    </div>
-    <div class="col-xs-6 col-md-6 pull-right">
-      <div class="col-lg-6">
-         <div class="input-group">
-           <input type="text" class="form-control" placeholder="Search for...">
-           <span class="input-group-btn">
-             <button class="btn btn-default" type="button">Go!</button>
-           </span>
-         </div><!-- /input-group -->
-       </div><!-- /.col-lg-6 -->
-      <a href='#' class='topnav'>Login</a>
-    </div>
-  </div>
-</div>
-
-  </div>
-</header>
-<div id="learn-nav" class="subnav hidden-phone" role="navigation">
-  <h2 class="accessibility">Main Menu</h2>
-  <div class="container">
-    <div class="limiter">
-      <div class="row">
-        <div class="col-xs-12 col-md-9 nav">
-          <li class="nav-btn">
-            <a class=" round" href="/families">Individuals &amp; Families</a>
-          </li>
-          <li class="nav-btn">
-            <a class=" round" href="/small-businesses">Small Businesses</a>
-          </li>
-          <li class="nav-btn">
-            <a class=" round" href="/small-businesses">Employee Resources</a>
-          </li>
-          <!-- <li role="presentation" class="nav-btn dropdown clearfix">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-    Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li> -->
+        <div class="container">
+          <div class='row top-nav'>
+            <div class="col-md-4">
+              <a href='/'><img class='logo' src='/images/logo.png' alt='Star Robbins &amp; Company' /></a>
+            </div>
+            <div class="col-md-8 pull-right">
+              <div class="col-md-8">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="What can we help you find?" aria-describedby="basic-addon2">
+                  <span class="input-group-addon" id="basic-addon2">Search</span>
+                </div><!-- /input-group -->
+              </div>
+              <div class="col-md-2 pull-right">
+                <a href='#'>Login</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+      </header>
+      <nav role="navigation" class="subnav">
+        <div class="container">
+          <div class="limiter">
+            <div class="row">
+              <div class="col-md-9">
+                <ul class="nav nav-pills">
+                  <li>
+                    <a href="/families">Individuals &amp; Families</a>
+                  </li>
+                  <li>
+                    <a href="/small-businesses">Small Businesses</a>
+                  </li>
+                  <li>
+                    <a href="/small-businesses">Employee Resources</a>
+                  </li>
+                  <li role="presentation" class="nav-btn dropdown clearfix">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
 
       <div class="content">
         <div class="hero" role="main">
@@ -82,21 +81,7 @@
               <p>A new way to get the information you need.</p>
               <a type="button" class="btn btn-large btn-green qa-btn" href="/quick-answers">START NOW</a>
             </div>
-            <div class="linear-bg hidden-phone">
-              <!--googleoff: all-->
-              <div class="container">
-                <div class="limiter">
-                  <form class="form-inline row-fluid">
-                    <label for="signup-hero">GET IMPORTANT NEWS &amp; UPDATES</label>
-                    <input name="email-signup" title="Email Signup Text Box" id="signup-hero" placeholder="Email Address" type="text" data-email="">
-                    <button class="btn btn-inverse signup" data-toggle="modal" data-target="#subscribe">Sign up</button>
-                  </form>
-                </div>
-              </div>
-              <!--googleon: all-->
-            </div>
-            <!--googleoff: all-->
-            <h2 class="accessibility">Quick links to information</h2>
+            <!-- Quick Questions -->
             <div id="taskbar">
               <div class="container">
                 <span id="left" class="icon arrow disabled" href="#" tabindex="-1"></span>
@@ -126,32 +111,13 @@
                   </div>
                 </div>
               </div>
-              <script type='text/javascript'>
-
-              $('.dropdown .nav-btn .dropdown-menu').dropdown();
-              // $('.nav .dropdown.nav-btn').accessibleDropDown();
-
-              $('#skip-nav').click(function () {
-                $($(this).attr('href')).focus();
-                return false;
-              });
-
-              $('#learn-nav a, #learn-nav input').focus(function(e) {
-                  if (!$(this).closest('.dropdown').length) {
-                      $('#learn-nav .dropdown').removeClass('hover open');
-                  }
-              });
-
-              // if(isMobileDevice.any()) {
-              //   $('#learn-nav .dropdown-menu').css('display','none');
-              // }
-              </script>
             </div>
             <!--googleon: all-->
           </div>
         </div>
         <div class="wrapper">
-          <!-- <div class="home">
+          <div class="container">
+            <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -170,22 +136,119 @@
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
- -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-small" role="footer">
+	<div class="container">
+		<div class="hidden-xs">
+      <div class="row">
+        <div class="col-sm-7">
+        </div>
+        <div class="col-sm-5">
         </div>
       </div>
 
-      <div id='footer' role='complementary'>
-  <h2 class='accessibility'></h2>
-  <div class='container'>
-    <div class='limiter hidden-phone'>
-      <div class="row">
-        Hello World
+      <hr>
+      <div class="row spacer-bottom20" style="overflow: hidden;">
+    <div class="col-resources col-sm-6">
+      <div>
+        <h3>Resources</h3>
+        <div class="col-sm-5">
+          <ul class="list-unstyled default">
+            <li>
+              <a href="#">Resource 1</a>
+            </li>
+            <li>
+              <a href="#">Resource 2</a>
+            </li>
+            <li>
+              <a href="#">Resource 3</a>
+            </li>
+            <li>
+              <a href="#">Resource 4</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-5 col-sm-offset-2">
+          <ul class="list-unstyled default">
+            <li>
+              <a href="#">Resource 5</a>
+            </li>
+            <li>
+              <a href="#">Resource 6</a>
+            </li>
+            <li>
+              <a href="#">Resource 7</a>
+            </li>
+            <li>
+              <a href="#">Resource 8</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-connect-with-us col-sm-5 col-sm-offset-1">
+      <div>
+        <h3>
+          Connect With Us
+        </h3>
+        <ul class="list-unstyled default bottom20">
+          <li>
+            <a href="#" class="row-link" data-remote="false">
+              <div class="row">
+                <div class="col-sm-1">
+                  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                </div>
+                <div class="col-sm-11 nudge-right">
+                  <span class="text">Questions? Call 1-800-555-5555</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog" class="row-link" data-remote="false">
+              <div class="row">
+                <div class="col-sm-1">
+                <span class="glyphicon glyphicon-comments"></span>
+                </div>
+                <div class="col-sm-11 nudge-right">
+                <span class="text">Visit the SRC blog</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <ul class="list-unstyled default bottom20">
+          <li class="social-icon">
+            <a class="fa fa-facebook fa-2x" alt="Facebook" href="#" target="_blank" title="Leaving starrobbins.com"></a>
+            <a class="fa fa-twitter fa-2x" href="#" target="_blank" title="Leaving starrobbins.com"></a>
+            <a class="fa fa-youtube fa-2x" href="#" target="_blank" title="Leaving starrobbins.com"></a>
+            <a class="fa fa-google-plus fa-2x" href="#" target="_blank" title="Leaving starrobbins.com"></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</div>
-
+  <div class="row row-links">
+    <div class="col-sm-4">
+      <small class="up-case">
+        <a href="#">Sitemap</a>
+       |
+        <a href="#">Glossary</a>
+       |
+        <a href="#">Contact Us</a>
+       |
+        <a href="#"">Archive</a>
+      </small>
     </div>
+    <div class="col-sm-8 text-right">
+    </div>
+  </div>
+</footer>
+
   </body>
 
 </html>
