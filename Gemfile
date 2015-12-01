@@ -1,3 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
+gem 'jekyll'
+gem 'jekyll-coffeescript'
+gem 'kramdown'
+gem 'chronic'
+gem 'json'
+gem 'liquid'

@@ -1,0 +1,45 @@
+<div class="hero" role="main">
+  <div class="container">
+    <div class="intro">
+      <h1>The New Star Robbins &amp; Company expierence is here.</h1>
+      <p>A new way to get the information you need.</p>
+      <a type="button" class="btn btn-large btn-green qa-btn" href="/quick-answers">START NOW</a>
+    </div>
+    <!-- Quick Questions -->
+    <div id="taskbar">
+      <div class="container">
+        <span id="left" class="icon arrow disabled" href="#" tabindex="-1"></span>
+        <span id="right" class="icon arrow" href="#" tabindex="-1"></span>
+        <div class="inner-strip">
+          <div class="row-fluid caro" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 1050px;">
+            <ul class="equal-height items" style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 1890px; left: 0px;">
+              {% for document in site.questions limit:3 %}
+                <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                  <a href="{{ document.url }}">{{ document.title }}</a>
+                </li>
+              {% endfor %}
+              <!-- <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">What are the requirements for a Life Event?</a>
+              </li>
+              <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">What documentation do I need to prove a life event?</a>
+              </li>
+              <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">Where do I get a claim form?</a>
+              </li>
+              <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">How do I file my Wellness Claim?</a>
+              </li>
+              <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">Can I find information online?</a>
+              </li>
+              <li class="span2 task-item" style="overflow: hidden; float: left; width: 189px; height: 100px;">
+                <a href="#">How to reach us for questions?</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

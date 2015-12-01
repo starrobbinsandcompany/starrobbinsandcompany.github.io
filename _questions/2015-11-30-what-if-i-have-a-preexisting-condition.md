@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 published: true
 title: "What if I have a pre-existing health condition?"
 "meta-title": "What if I have a pre-existing medical condition"
@@ -11,16 +7,16 @@ title: "What if I have a pre-existing health condition?"
 bite: "Starting in 2014, most health insurance plans can't refuse to cover you or charge you more just because you have a pre-existing health condition."
 lang: en
 layout: basic
-topics: 
+topics:
   - "health-insurance-marketplace"
   - "health-insurance-basics"
-questions: 
+questions:
   - "what-can-i-do-before-marketplace-enrollment"
   - "what-if-im-pregnant-without-health-coverage"
   - "is-there-a-list-of-pre-existing-conditions"
-related: 
+related:
   - "can-i-keep-my-own-doctor"
-audience: 
+audience:
   - individuals
 barrier: Cost and Coverage
 "seo-keywords": "Pre-existing condition; pre-existing medical condition; health insurance marketplace"
@@ -29,9 +25,10 @@ condition: "pregnancy-services,womens-health"
 "other-subject": "Pre-existing Condition; Nondiscrimination"
 "insurance-status": all
 categories: null
-tags: 
+tags:
   - promote
 state: all
+hero: no
 ---
 
 Starting in 2014, most health insurance plans can't refuse to cover you or charge you more just because you have a pre-existing health condition.
