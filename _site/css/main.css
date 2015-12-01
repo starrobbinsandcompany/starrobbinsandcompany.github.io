@@ -5980,8 +5980,10 @@ a.btn.btn-large {
 
 /** Top Navigation **/
 .top-nav {
-  padding-top: 10px;
-  height: 56px; }
+  padding-top: 13px;
+  height: 90px; }
+  .top-nav .right-nav {
+    padding-top: 13px; }
 
 .subnav {
   position: relative;

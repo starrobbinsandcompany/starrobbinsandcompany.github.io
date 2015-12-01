@@ -1,10 +1,6 @@
 <div class='row-fluid article-topic'>
   <ul title='{% if page.lang =="es" %}Este artículo trata los temas siguientes:{% else %}This article covers the following topics{% endif %}' class='header4'>
-    {% if page.lang == 'es' %}
-    <span class='header4'>TEMAS</span>
-    {% else %}
     <span class='header4'>TOPICS</span>
-    {% endif %}
     {% for topic in site.tags.topic %}
     {% capture tag %}{{topic.url | split:'/' | last}}{% endcapture %}
     {% if page.topics contains tag and page.lang == topic.lang %}
