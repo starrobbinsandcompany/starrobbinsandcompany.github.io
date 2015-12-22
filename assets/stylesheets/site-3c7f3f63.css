@@ -1,0 +1,436 @@
+/** Bootstrap Overrides **/
+/* line 3, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.navbar-default {
+  background: none;
+  border: none; }
+
+/** Layout **/
+/* line 9, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#wrapper {
+  overflow-x: hidden; }
+
+/* line 12, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.content {
+  background: #fdfcf5; }
+
+/* line 16, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.article-container {
+  padding-bottom: 40px; }
+
+/* line 20, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.footer-small {
+  background-color: #233c37;
+  color: #FFF9DD; }
+  /* line 23, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .footer-small h3, .footer-small a {
+    color: #FFF9DD; }
+
+/** Typography **/
+/* line 31, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+h1, h2, h3 {
+  font-family: 'Bitter',serif;
+  font-weight: normal;
+  letter-spacing: normal; }
+
+/** Buttons **/
+/* line 37, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn,
+.btn.active,
+.btn:active {
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  background-repeat: repeat-x;
+  background-position: 0 -15px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+  z-index: 1000 !important; }
+
+/* line 53, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled], .btn:focus {
+  color: #FFF; }
+
+/* line 56, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.no-touch .btn:hover,
+.no-touch .btn:focus {
+  background-position: 0 0; }
+
+/* line 60, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn-large {
+  width: 260px;
+  padding: 10px 0;
+  font-size: 20px;
+  line-height: inherit;
+  font-weight: 700;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+  text-transform: uppercase; }
+
+/* line 69, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+a.btn.btn-large {
+  text-decoration: none !important;
+  color: #FFF; }
+
+/* line 73, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn-green {
+  border: none;
+  background-color: #197622 !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#20972c", endColorstr="#187522");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#20972c), to(#187522));
+  background-image: -moz-linear-gradient(top, #20972c, #187522);
+  background-image: -ms-linear-gradient(top, #20972c, #187522);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #20972c), color-stop(100%, #187522));
+  background-image: -webkit-linear-gradient(top, #20972c, #187522);
+  background-image: -o-linear-gradient(top, #20972c, #187522);
+  background-image: linear-gradient(#20972c, #187522);
+  color: #fff;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25); }
+
+/* line 89, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.no-touch .btn-green:hover,
+.no-touch .btn-green:focus {
+  color: #fff;
+  text-decoration: none; }
+
+/* line 94, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn.btn-blue {
+  border: none;
+  background-position: 0 0;
+  background-image: none;
+  background-color: #063346 !important; }
+
+/* line 100, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn.btn-blue:hover,
+.btn.btn-blue:focus {
+  background-color: #026897 !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#038ac8", endColorstr="#026796");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#038ac8), to(#026796));
+  background-image: -moz-linear-gradient(top, #038ac8, #026796);
+  background-image: -ms-linear-gradient(top, #038ac8, #026796);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #038ac8), color-stop(100%, #026796));
+  background-image: -webkit-linear-gradient(top, #038ac8, #026796);
+  background-image: -o-linear-gradient(top, #038ac8, #026796);
+  background-image: linear-gradient(#038ac8, #026796); }
+
+/* line 113, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn.btn-blue.btn-search {
+  position: absolute;
+  right: 0;
+  margin-top: 4px;
+  height: 34px;
+  width: 34px;
+  text-indent: -999em;
+  padding: 0;
+  -webkit-border-top-left-radius: 0px !important;
+  -webkit-border-bottom-left-radius: 0px !important;
+  -moz-border-radius-bottomleft: 0px !important;
+  -moz-border-radius-bottomleft: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important; }
+
+/* line 128, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn-grey {
+  background-color: #d9d9d9 !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed", endColorstr="#d8d8d8");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ededed), to(#d8d8d8));
+  background-image: -moz-linear-gradient(top, #ededed, #d8d8d8);
+  background-image: -ms-linear-gradient(top, #ededed, #d8d8d8);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(top, #ededed, #d8d8d8);
+  background-image: -o-linear-gradient(top, #ededed, #d8d8d8);
+  background-image: linear-gradient(#ededed, #d8d8d8);
+  color: #333 !important; }
+
+/* line 141, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn-grey.print {
+  float: right;
+  margin-top: -32px;
+  width: 90px;
+  min-height: 28px !important;
+  max-height: 28px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 20px; }
+
+/* line 151, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.btn-grey.print.es {
+  width: 112px; }
+
+/* line 154, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.audience-container .btn-grey.print {
+  margin-left: 100%; }
+
+/** Top Navigation **/
+/* line 160, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.top-nav {
+  padding-top: 13px;
+  height: 90px; }
+  /* line 163, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .top-nav .right-nav {
+    padding-top: 13px; }
+
+/* line 168, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.subnav {
+  position: relative;
+  height: 54px;
+  padding-top: 5px;
+  background: #651E20; }
+  /* line 173, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .subnav:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: -4px;
+    z-index: 10;
+    background: url(/assets/images/dark-bg-ef5a07c2.png) 0 0 repeat; }
+  /* line 183, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .subnav li a {
+    color: #fff;
+    font-size: 1.2em; }
+  /* line 187, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .subnav li a:hover {
+    color: #000; }
+
+/* line 192, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.hero {
+  position: relative;
+  height: 700px;
+  color: #fff;
+  background: 45% no-repeat;
+  background-size: cover; }
+  /* line 198, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .hero .intro {
+    position: relative;
+    top: 100px;
+    left: 10%; }
+  /* line 203, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .hero p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 22px 0;
+    width: 490px; }
+  /* line 210, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .hero h1 {
+    width: 49%;
+    font-size: 42px;
+    line-height: 47px; }
+  /* line 215, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .hero h2, .hero form label {
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    position: relative;
+    right: 5px;
+    bottom: 2px; }
+  /* line 222, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .hero a.btn {
+    padding: 15px 16px;
+    font-size: 23px; }
+
+/* line 228, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.hero {
+  background-image: url("/assets/images/female-1-9e555ef1.jpg"); }
+
+/* line 232, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.linear-bg {
+  /* fallback */
+  background-color: #535353;
+  background-repeat: repeat-y;
+  background: -webkit-gradient(linear, left top, right top, from(#000), to(rgba(131, 131, 131, 0)));
+  background: -webkit-linear-gradient(left, #000, rgba(131, 131, 131, 0));
+  background: -moz-linear-gradient(left, #000, rgba(131, 131, 131, 0));
+  background: -ms-linear-gradient(left, #000, rgba(131, 131, 131, 0));
+  background: -o-linear-gradient(left, #000, rgba(131, 131, 131, 0));
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  bottom: 138px;
+  left: 0; }
+
+/* line 247, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar {
+  position: absolute;
+  overflow: hidden;
+  height: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 0;
+  font-weight: 600;
+  line-height: 24px;
+  background: #063346;
+  background: rgba(1, 39, 55, 0.85); }
+
+/* line 260, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .caro {
+  max-width: 1049px;
+  margin: 0 auto; }
+
+/* line 264, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar ul li.task-item {
+  width: 210px !important;
+  height: 100px !important;
+  margin-left: 0;
+  display: block;
+  padding: 0 10px;
+  box-sizing: border-box;
+  padding-left: 32px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: 'Bitter',serif;
+  text-align: center;
+  border-right: 1px dotted #34525f; }
+
+/* line 278, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .task-item a {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 291, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+html[lang='es'] #taskbar .task-item a {
+  line-height: 22px;
+  padding: 6px 0; }
+
+/* line 295, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .task-item a:hover,
+#taskbar .task-item a:focus {
+  background: #046792; }
+
+/* line 299, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 30px; }
+
+/* line 305, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer; }
+
+/* line 314, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow.disabled,
+#taskbar .arrow.disabled:hover {
+  opacity: 0.1;
+  filter: alpha(opacity=10); }
+
+/* line 319, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow.disabled#right:hover {
+  background-position: -10px -52px; }
+
+/* line 322, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow.disabled#left:hover {
+  background-position: -36px -52px; }
+
+/* line 325, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow#left {
+  float: left;
+  background-position: -36px -52px; }
+
+/* line 329, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow#left:hover {
+  background-position: -36px -12px; }
+
+/* line 332, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow#right {
+  float: right;
+  background-position: -10px -52px; }
+
+/* line 336, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#taskbar .arrow#right:hover {
+  background-position: -10px -12px; }
+
+/* line 340, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+#siderail {
+  position: relative;
+  background: #fff;
+  padding: 30px 40px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+  /* line 351, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  #siderail h2 {
+    font-size: 18px; }
+  /* line 354, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  #siderail ul {
+    -webkit-padding-start: 0; }
+  /* line 355, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  #siderail li {
+    list-style-type: none;
+    padding-bottom: 10px; }
+
+/** Articles **/
+/* line 361, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+article {
+  position: relative;
+  background: #fff;
+  padding: 30px 40px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+
+/** Team **/
+/* line 375, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member {
+  text-align: center;
+  margin-bottom: 50px; }
+  /* line 378, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+  .team-member .biography {
+    display: none; }
+
+/* line 384, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member:hover .biography {
+  display: block; }
+
+/* line 389, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid #fff;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+/* line 396, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+/* line 401, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none; }
+
+/* line 407, /Users/ESparkman/Development/starrobbinsandcompany.github.io/source/assets/stylesheets/site.scss */
+.team-member p {
+  margin-top: 0; }
